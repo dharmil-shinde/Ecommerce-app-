@@ -7,7 +7,7 @@ import Cart from './components/Cart'
 import Products from './components/Products'
 import SingleProduct from './components/SingleProduct'
 
-import SpinnerCheck from './components/SpinnerCheck'
+
 import Contact from './Contact'
 const App = () => {
   return (
