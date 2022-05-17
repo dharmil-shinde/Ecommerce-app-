@@ -1,0 +1,55 @@
+.s-back{
+    background: linear-gradient(to right, rgba(55, 3, 3, 0.582) 10% ,rgba(221, 199, 199, 0));
+    font-size: 14px;
+}
+.s-header{
+    text-transform:uppercase;
+    position: absolute;
+    top:2em;
+    font-size: 2.8em;
+    left:1em
+
+}
+.s-define{
+    text-transform: capitalize;
+    font-size: 1.3em;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    position:absolute;
+    top:7em;
+    left:3em
+}
+.s-shop{
+    border:0.02em solid white;
+    text-transform: uppercase;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 3em;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    bottom:2em;
+    left:1em;
+    letter-spacing: 0.2em;
+    box-shadow: 10px 15px 15px 5px rgba(0, 0, 0, 0.448);
+
+}
+@media only screen and (max-width:1200px){
+    .s-back{
+        font-size: 12px;
+    }
+    }
+@media only screen and (max-width:850px){
+    .s-back{
+        font-size: 7px;
+    }
+    }
+@media only screen and (max-width:550px){
+.s-back{
+    font-size: 5px;
+}
+}
+@media only screen and (max-width:400px){
+    .s-back{
+        font-size: 3px;
+    }
+    }
